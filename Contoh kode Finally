@@ -1,0 +1,13 @@
+public class ContohFinal_19111081014 {
+   private final int max = 20;
+   private final int hargaPena = 50000;
+   private static int a;
+   public static void main(String[] args) {
+      ContohFinal_19111081014 x = new ContohFinal_19111081014();
+      for(a=1;a<=x.max;a++){
+          System.out.println("Harga Pena Setelah dihitung :  " +a+ ":"+ x.hargaPena*a);
+      }
+   }
+    
+}
+
