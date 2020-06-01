@@ -1,0 +1,14 @@
+public class BukuFinalize_19111081014 {
+    
+    public void Finalize(){
+        System.out.println("Garbage Collector Berhasil Terkumpul");
+    }
+    public static void main(String[] args) {
+        BukuFinalize_19111081014 satu = new BukuFinalize_19111081014();
+        BukuFinalize_19111081014 dua = new BukuFinalize_19111081014();
+        satu = null;
+        dua = null;
+        System.gc();
+        System.out.println("Garbage Collector Siap! GOOD JOB");
+    }
+}
