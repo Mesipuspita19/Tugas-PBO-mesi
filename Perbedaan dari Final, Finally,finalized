@@ -1,0 +1,14 @@
+apa bedanya final, finally dan finalize
+
+1. final 
+  adalah keyword untuk mendeklarasikan bahwa sebuah variabel/atribut tidak dapat diubah lagi isinya (konstan), 
+jika final disebutkan di method, artinya method tersebut tidak dapat di override oleh subclassnya,
+jika final disebutkan di class, artinya class tersebut tidak dapat diturunkan lagi
+
+2. finally 
+  merupakan tag dalam try-finally yang digunakan untuk memastikan bahwa kode didalam finally akan dieksekusi walaupun 
+  dalam try sukses / gagal.
+
+3. finalize 
+  merupakan methode kelas Object yang dieksekusi saat garbace collection 
+  menghapus sebuah object yang sudah tidak terpakai.
